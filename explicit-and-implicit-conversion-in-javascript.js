@@ -50,3 +50,10 @@ let year = String(2025);
 let fullDate = month + "/" + day + "/" + year;
 console.log(`Pi Day is ${fullDate} and also STL Day!`);
 //I utilized the String() function to explicity convert the numbers for the month, day, and year to strings before inputing the data into the fullDate variable.
+
+let answer = Boolean(null); 
+if (answer) {
+    console.log("This is correct!");
+}
+console.log(answer);
+//I used a boolean expression to convert an null value into a boolean value
